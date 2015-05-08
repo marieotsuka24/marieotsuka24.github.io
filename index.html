@@ -25,11 +25,36 @@
 </nav>
 </header>
 
+<form action="reserve.php">
+  <h4>ご予約</h4>
+  <select name="yearmonth" id="yearmonth">
+    <option value="201504">2015年4月</option>
+    <option value="201505">2015年5月</option>
+  </select><br>
+  <select name="day" id="day">
+    <option value="1">1日</option>
+    <option value="30">29日</option>
+  </select><br>
+  <select name="number" id="number">
+    <option value="1">1人</option>
+    <p>／</p>
+    <option value="10">10人</option>
+  </select><br>
+  <select name="room" id="room">
+    <option value="1">1室</option>
+    <option value="10">10室</option>
+  </select><br>
+<input type="radio" name="room" value="type" checked="checked">宿泊プラン別<br>
+<input type="radio" name="room" value="plan">部屋タイプ別<br>
+<input type="image" src="img/yoyakubottan.png" alt="宿泊予約検索"><br>
+<p><a href="#">ご予約の確認・変更・取消</a></p>
+</form>
+
 <div>
 <img src="img/main.jpg" alt="">
 </div>
 
-<div>
+<section>
 <h3>NEWS</h3>
 <dl>
 <dt>2012.10.20</dt>
@@ -38,7 +63,7 @@
 <dd><a href="#">ホテル東京ベイサイドでは、館内のレストラン・バーで、お使いいただけるサティフィケートをご用意しております。
 大切な方のおもてなしや、記念日のお食事などにご利用ください。</a></dd>
 </dl>
-</div>
+</section>
 
 <aside>
 <ul>
