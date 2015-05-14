@@ -43,7 +43,7 @@ header{
   .sub a{
       text-decoration: none;
       color: #333333;
-      font-family: "Baskerville Regular";
+      font-family: "Libre Baskerville";
     }
 
 
@@ -204,7 +204,7 @@ color:#993333;
   .news h3{
     color: #333333;
     font-family: "Baskerville Regular";
-    margin-bottom: 32px;
+    margin-bottom: 21px;
     font-size: 14px;
     background:url(../img/line2.jpg) left bottom no-repeat;
     padding-bottom: 10px;
@@ -213,7 +213,7 @@ color:#993333;
   .news dd{
     width: 344px;
     float: right;
-    margin-bottom: 30px;
+    margin-bottom: 34px;
     line-height: 19px;
   }
 
@@ -224,11 +224,12 @@ color:#993333;
 
   .news dt{
     width: 90px;
-    font-size: 14px;
-    font-family: "Baskerville Regular";
+    font-size: 12px;
     color: #333333;
     float: left;
-    margin-bottom: 30px;
+    margin-bottom: 34px;
+    padding-top: 1px;
+    font-family: "Baskerville Regular";
   }
 
   /* -------news--------- */
@@ -236,7 +237,6 @@ color:#993333;
   /* -------banner--------- */
   .banner{
     width: 373px;
-    height: 145px;
     float: right;
     margin-top: 86px;
   }
@@ -288,7 +288,7 @@ footer p{
   }
 
   .others li a{
-    font-size: 14px;
+    font-size: 12px;
     text-decoration: none;
     font-family: "Hiragino Mincho Pro";
     color: #333333;
