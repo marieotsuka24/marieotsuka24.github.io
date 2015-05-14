@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <title>Hotel Tokyo Bayside</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
-
 <body>
+
+
 <header>
-  <div>
+  <div class="logo">
     <img src="img/logo.jpg" alt="東京ベイサイドホテル">
   </div>
 
-  <div>
-    <p><a href="#">JAPANESE</a></p>
-    <p><a href="#">お問い合わせ</a></p>
-    <p><a href="#">SIGN IN</a></p>
+  <div class="sub">
+    <p class="japanese"><a href="#">　JAPANESE</a></p>
+    <p class="otoiawase"><a href="#">　お問い合わせ</a></p>
+    <p class="signin"><a href="#">　SIGN IN</a></p>
   </div>
 
   <nav>
@@ -29,63 +31,87 @@
   </nav>
 </header>
 
-  <form action="reserve.php">
-    <h4>ご予約</h4>
-    <select name="yearmonth" id="yearmonth">
-      <option value="201504">2015年4月</option>
-      <option value="201505">2015年5月</option>
-    </select><br>
-    <select name="day" id="day">
-      <option value="1">1日</option>
-      <option value="30">29日</option>
-    </select><br>
-    <select name="number" id="number">
-      <option value="1">1人</option>
-      <p>／</p>
-      <option value="10">10人</option>
-    </select><br>
-    <select name="room" id="room">
-      <option value="1">1室</option>
-      <option value="10">10室</option>
-    </select><br>
-    <input type="radio" name="room" value="type" checked="checked">宿泊プラン別<br>
-    <input type="radio" name="room" value="plan">部屋タイプ別<br>
-    <input type="image" src="img/yoyakubottan.png" alt="宿泊予約検索"><br>
-    <p><a href="#">ご予約の確認・変更・取消</a></p>
-  </form>
 
-  <div><img src="img/main.jpg" alt="都会の贅沢"></div>
+  <div class="mainvisual">
+    <div class="inner">
+      <h2>都 会 の 贅 沢。</h2>
+    <!-- <img src="img/main.jpg" alt="都会の贅沢"> -->
+    <div class="formwrapper">
+      <div class="forminner">
+      <form action="reserve.php">
+        <h4>ご予約</h4>
+        <select name="yearmonth" id="yearmonth">
+          <option value="201504">2015年4月</option>
+          <option value="201505">2015年5月</option>
+        </select>
+        <select name="day" id="day">
+          <option value="1">1日</option>
+          <option value="30">29日</option>
+        </select><br>
+        <select name="number" id="stay">
+          <option value="1">1泊</option>
+          <option value="10">2泊</option>
+        </select>
+        <select name="number" id="number">
+          <option value="1">1人</option>
+          <option value="10">10人</option>
+        </select>
+        <select name="room" id="room">
+          <option value="1">1室</option>
+          <option value="10">10室</option>
+        </select><br>
+        <div class="plantype">
+        <div class="plan"><input type="radio" name="room" value="type" checked="checked">宿泊プラン別</div>
+        <div class="type"><input type="radio" name="room" value="plan">部屋タイプ別</div>
+        </div>
+        <div class="image"><input type="image" src="img/yoyakubottan.png" alt="宿泊予約検索"></div>
+        <p><a href="#">　 ご予約の確認・変更・取消</a></p>
+      </form>
+    </div><!-- forminner -->
+    </div><!-- formwrapper -->
+  </div> <!-- inner -->
+</div><!-- mainvisual -->
 
-  <section>
+
+<div class="inner">
+  <section class="news">
     <h3>NEWS</h3>
     <dl>
       <dt>2012.10.20</dt>
       <dd><a href="#">Webサイトをリニューアルしました。</a></dd>
       <dt>2012.10.26</dt>
-      <dd><a href="#">ホテル東京ベイサイドでは、館内のレストラン・バーで、お使いいただけるサティフィケートをご用意しております。
+      <dd><a href="#">ホテル東京ベイサイドでは、館内のレストラン・バーで、<br>
+        お使いいただけるサティフィケートをご用意しております。<br>
       大切な方のおもてなしや、記念日のお食事などにご利用ください。</a></dd>
     </dl>
-  </section>
+  </section><!-- news -->
 
-  <aside>
+  <aside class="banner">
     <ul>
-      <li><img src="img/banner01.jpg" alt="桜フェア　スイーツ満開"></li>
-      <li><img src="img/banner02.jpg" alt="アニバーサリープラン"></li>
+      <li class="banner01"><img src="img/banner01.jpg" alt="桜フェア　スイーツ満開"></li>
+      <li class="banner02"><img src="img/banner02.jpg" alt="アニバーサリープラン"></li>
     </ul>
   </aside>
+</div><!-- inner -->
+
 
 <footer>
-  <div>
+  <div class="others">
     <ul>
-      <li><a href="#">神戸居留地</a></li>
-      <li><a href="#">心斎橋</a></li>
-      <li><a href="#">名古屋栄</a></li>
-      <li><a href="#">名古屋</a></li>
-      <li><a href="#">大阪阿倍野</a></li>
+      <li><a href="#"><span>神戸居留地</span>
+        <div class="others1"><img src="img/logo01.jpg" alt="ロゴ1"></div></a></li>
+      <li><a href="#"><span>心斎橋</span>
+        <img src="img/logo02.jpg" alt="ロゴ2"></a></li>
+      <li><a href="#"><span>名古屋栄</span>
+        <img src="img/logo03.jpg" alt="ロゴ3"></a></li>
+      <li><a href="#"><span>名古屋</span>
+        <img src="img/logo04.jpg" alt="ロゴ4"></a></li>
+      <li><a href="#"><span>大阪阿倍野</span>
+        <img src="img/logo05.jpg" alt="ロゴ5"></a></li>
     </ul>
-  </div>
+  </div><!-- .others -->
 
-  <div>
+  <div class="nav2">
     <ul>
       <li><a href="#">会社情報</a></li>
       <li><a href="#">ご利用規約</a></li>
@@ -94,15 +120,15 @@
       <li><a href="#">よくある質問</a></li>
       <li><a href="#">サイトマップ</a></li>
     </ul>
-  </div>
+  </div><!-- .nav2 -->
 
-  <div>
+  <div class="address">
     <h6>東京ベイサイドホテル</h6>
-    <p>〒105-8576 東京都港区海岸1丁目16番2号 TEL:03-6141-6008(代表) FAX:03-6141-6009(代表)</p>
-    <p><small>&copy;Tokyo bayside Hotel</small></p>
-  </div>
-</footer>
+    <p class="address01">〒105-8576 東京都港区海岸1丁目16番2号　TEL:03-6141-6008(代表)　FAX:03-6141-6009(代表)</p>
+    <p class="address02"><small>&copy;Tokyo bayside Hotel</small></p>
+  </div><!-- .address -->　
+</footer><!-- .footer -->
+
+
 </body>
-
-
 </html>

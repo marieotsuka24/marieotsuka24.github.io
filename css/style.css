@@ -1,0 +1,336 @@
+body{
+  text-decoration: none;
+  color: #333333;
+  font-size: 12px;
+  font-family: "Hiragino Mincho Pro";
+  font-weight: normal;
+}
+
+a:link {
+  color: #333333;
+  }
+a:visited{
+  color:#993333;
+  }
+
+.wrapper{
+  width: 980px;
+  margin:0px auto 0;
+}
+
+/* -------header--------- */
+
+
+header{
+  overflow: hidden;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.logo{
+  margin-top: 12px;
+  float: left;
+  margin-left: 416px;
+}
+
+  /* -------sub JAPANESE,お問い合わせ,SIGN IN--------- */
+
+  .sub{
+    width: 290px;
+    margin-top: 12px;
+    float: right;
+  }
+
+  .sub a{
+      text-decoration: none;
+      color: #CCC;
+      font-family: "Baskerville Regular";
+    }
+
+
+  .japanese{
+    float: left;
+    font-size: 12px;
+    padding-right: 32px;
+    background: url(../img/icon03.gif) left  no-repeat;
+  }
+
+
+  .otoiawase{
+    float: left;
+    font-size: 12px;
+    padding-right: 32px;
+    background: url(../img/icon02.gif) left  no-repeat;
+  }
+
+  .signin{
+    float: left;
+    font-size: 12px;
+    background: url(../img/icon01.gif) left  no-repeat;
+  }
+
+
+  /* -------sub JAPANESE,お問い合わせ,SIGN IN--------- */
+
+/* -------header--------- */
+
+/* -------nav グローバルナビゲーション--------- */
+
+nav{
+  width: 980px;
+  height: 50px;
+  clear:left;
+  padding-top:32px;
+}
+
+nav li{
+  width: 195px;
+  float: left;
+  font-size: 14px;
+  text-align: center;
+  height: 50px;
+  background:url(../img/line1.jpg) right center no-repeat;
+}
+
+
+
+nav li:last-child{
+  background-image: none;
+}
+
+nav li a{
+  height: 32px;
+  text-decoration: none;
+  color: #333333;
+  font-family: "Hiragino Mincho Pro";
+  display: block;
+  width: 100%;
+  padding-top: 18px;
+}
+
+.news li a:hover{
+color:#993333;
+}
+
+
+/* -------nav　グローバルナビゲーション--------- */
+
+/* -------main--------- */
+
+.mainvisual{
+  height: 358px;
+  width: 100%;
+  background-image:url("../img/mainvisual.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.mainvisual h2{
+  float: left;
+  margin-left: 32px;
+  margin-top: 55px;
+  color: #FFF;
+  font-family: "Hiragino Mincho Pro";
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 0.5em;
+}
+  /* -------formwrapper--------- */
+
+  .formwrapper{
+    background-color: rgba(130, 35, 35, 0.8);
+    width: 216px;
+    height: 330px;
+    float: right;
+    padding: 14px 26px 14px;
+    overflow: hidden;
+  }
+
+  .formwrapper h4{
+    font-size: 16px;
+    padding-top: 13px;
+    border-bottom: #FFF 1px solid;
+    padding-bottom: 10px;
+    margin-bottom:  10px;
+    color: #FFF;
+  }
+
+  .formwrapper select{
+    margin-bottom: 11px;
+    margin-right: 13px;
+  }
+
+  .plantype{
+    margin-top: 28px;
+    margin-bottom: 46px;
+    font-size: 15px;
+    color: #FFF;
+  }
+
+  .plan{
+    margin-bottom: 16px;
+  }
+
+  .formwrapper p{
+    margin-top: 28px;
+    color: #FFF;
+    font-size: 15px;
+    background: url(../img/icon05.gif) left  no-repeat;
+  }
+
+  /* -------formwrapper--------- */
+/* -------main--------- */
+
+/* -------inner--------- */
+
+.inner{
+  width: 980px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 113px;
+}
+
+/* float: left;
+margin-left: 24px;
+margin-bottom: 136px; */
+
+  /* -------news--------- */
+
+  .news{
+    width: 464px;
+    float: left;
+    padding-top: 63px;
+    line-height: 16px;
+  }
+
+  .news h3{
+    color: #333333;
+    font-family: "Baskerville Regular";
+    margin-bottom: 32px;
+    font-size: 14px;
+    background:url(../img/line2.jpg) left bottom no-repeat;
+    padding-bottom: 10px;
+  }
+
+  .news dd{
+    width: 344px;
+    float: right;
+    margin-bottom: 30px;
+    line-height: 19px;
+  }
+
+  .news dd a{
+    font-family: "Hiragino Mincho Pro";
+    text-decoration: underline;
+  }
+
+  .news dt{
+    width: 90px;
+    font-size: 14px;
+    font-family: "Baskerville Regular";
+    color: #333333;
+    float: left;
+    margin-bottom: 30px;
+  }
+
+  /* -------news--------- */
+
+.banner{
+  width: 373px;
+  height: 145px;
+  float: right;
+  margin-top: 86px;
+}
+
+.banner01{
+  margin-bottom: 6px;
+}
+
+/* -------inner--------- */
+
+
+
+/* -------footer--------- */
+
+footer{
+  width: 980px;
+  margin: 0 auto;
+}
+
+footer a{
+  text-decoration: none;
+  font-family: "Hiragino Mincho Pro";
+  color: #333333;
+}
+
+footer p{
+  text-decoration: none;
+  font-size: 10px;
+  font-family: "Hiragino Mincho Pro";
+  color: #333333;
+}
+
+  /* -------other　他店舗情報--------- */
+
+  .others{
+    width: 724px;
+    clear: both;
+    overflow:  hidden;
+    background:url(../img/line3.jpg) top center no-repeat,url(../img/line4.jpg) bottom center no-repeat;
+    padding: 22px 128px 56px;
+    margin: 0 auto;
+  }
+
+
+  .others li{
+    width: 144px;
+    float: left;
+    text-align: center;
+  }
+
+  .others li a{
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Hiragino Mincho Pro";
+    color: #333333;
+  }
+
+  .others li a span{
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  /* -------other　他店舗情報--------- */
+
+.nav2{
+  width: 580px;
+  margin: 0 auto;
+  clear: both;
+  margin-top: 22px;
+}
+
+.nav2 li{
+  margin-right: 16px;
+  display: inline;
+}
+
+.address{
+  width: 980px;
+  background-color: #dcdcdc;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.address h6{
+  padding-top:20px;
+  font-weight: normal;
+}
+
+.address01{
+  padding-top: 8px;
+}
+.address02{
+padding-top: 13px;
+}
+/* -------footer--------- */
