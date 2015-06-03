@@ -61,11 +61,30 @@ nav img{
   background-image:url("../images/shindan.png");
   text-align: center;
 }
+.shindan h2{
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.shindan h3{
+  fontsize: 12px;
+  color: #FFFFFF;
+}
+
+.shindan h4{
+  fontsize: 10.5px;
+  color: #FFFFFF;
+}
+
+.shindan p{
+  fontsize: 10.5px;
+}
 
 .close{
   float: right;
   margin-right: 35px;
   margin-top: 8px;
+  color: #FFFFFF;
 }
 
 
