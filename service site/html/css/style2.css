@@ -1,14 +1,15 @@
 body{
   text-decoration: none;
-  color: #ffffff;
-  font-family: "Hiragino Kakugo Pro W6";
+  text
+  font-family: "Hiragino Kakugo Pro W3";
   font-weight: normal;
-  background-image:url("../images/mainvisual.jpg");
+  background-image:url("../images/mainvisual2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center 80px;
+  background-position: 280px;
   margin: 0;
+  height: 400px;
 }
 
 .wrapper{
@@ -52,7 +53,7 @@ nav img{
 }
 
 .shindan{
-  width: 213px;
+  width: 206px;
   height: 305px;
   position: absolute;
   top: 0px;
@@ -61,42 +62,41 @@ nav img{
   background-image:url("../images/shindan.png");
   text-align: center;
 }
+.shindan h2{
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-top: 37px;
+}
+
+.shindan h3{
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-top: 32px;
+}
+
+.shindan h4{
+  font-size: 10.5px;
+  color: #FFFFFF;
+  margin-top: 16px;
+}
+
+.shindan p{
+  font-size: 10.5px;
+  margin-top: 28px;
+}
 
 .close{
   float: right;
   margin-right: 35px;
   margin-top: 8px;
+  color: #FFFFFF;
 }
 
-.shindan_stit{
-  font-size: 12px;
-  margin-top: 36px;
-  margin-bottom: 0px;
-  }
 
-.shindan h2{
-  font-size: 20px;
-  font-weight: normal;
-  margin-top: 18px;
-  margin-bottom: 0px;
-}
 
-.q{
-  font-size: 14px;
-  margin-top: 39px;
-  line-height: 24px;
-  margin-bottom: 0px;
-}
 
-ul{
-  margin-top: 38px;
-  margin-left: 35px;
-}
 
-.bottan1{
-  float: right;
-  margin-right: 46px;
-}
+
 
 
 
