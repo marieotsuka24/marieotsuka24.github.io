@@ -69,7 +69,7 @@ nav img{
 }
 
 .shindan h3{
-  font-size: 12px;
+  font-size: 12.5px;
   color: #FFFFFF;
   margin-top: 32px;
 }
@@ -78,11 +78,39 @@ nav img{
   font-size: 10.5px;
   color: #FFFFFF;
   margin-top: 16px;
+  line-height:　8px;
+  letter-spacing: 1px;
 }
 
 .shindan p{
   font-size: 10.5px;
+  color: #FFFFFF;
   margin-top: 28px;
+}
+
+.shindanbottan{
+  margin-top: 11px;
+}
+
+.shindan ul{
+  text-align: center;
+}
+
+.shere1{
+  float: left;
+  margin-right: 6px;
+}
+.shere2{
+  float: right;
+}
+
+.shere3{
+  float: left;
+  margin-right: 6px;
+}
+
+.shere4{
+  float: right;
 }
 
 .close{
